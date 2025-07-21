@@ -36,8 +36,9 @@ header {
 }
 
 header h1 {
-    margin: 10px 0 0 0;
-    font-size: 2.8em; /* Corrected syntax (no space) */
+    margin-top: 0; /* Force top margin to zero */
+    margin-bottom: 5px; /* Add small space below for the subtitle */
+    font-size: 2.8em;
     font-weight: 400;
 }
 
@@ -45,8 +46,8 @@ header h1 {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 4px solid #000000; /* Your new black border */
-    margin-bottom: 1rem;
+    border: 4px solid #000000;
+    margin-bottom: 0; /* Force bottom margin to zero */
     object-fit: cover;
     object-position: top;
 }
@@ -55,7 +56,7 @@ header h1 {
 section h2 {
     text-align: center;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 1.8em;
     color: #4f4a45;
     font-weight: 500;
